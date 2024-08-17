@@ -1,0 +1,18 @@
+{
+  "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "announcement_text": "Free UK shipping on orders over £175",
+          "announcement_url": "",
+          "announcement_bg_color": "#121111",
+          "announcement_text_color": "#ffffff"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

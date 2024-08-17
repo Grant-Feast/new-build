@@ -1,0 +1,40 @@
+<div class="announcement-bar">
+  <div class="announcement-content" style="background:{{ section.settings.announcement_bg_color }}">
+    {% if section.settings.announcement_url == blank %}
+      <p style="color: {{ section.settings.announcement_text_color }}">{{ section.settings.announcement_text }}</p>
+    {% else %}
+      <a href="{{ section.settings.announcement_url }}" class="announcement-link">
+        {{- section.settings.announcement_text -}}
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement bar text"
+    },
+    {
+      "type": "url",
+      "id": "announcement_url",
+      "label": "Announcement bar URL"
+    },
+    {
+      "type": "color",
+      "id": "announcement_bg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "color",
+      "id": "announcement_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    }
+  ]
+}
+{% endschema %}

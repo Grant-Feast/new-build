@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Announcement bar */
+
+.announcement-content {
+  text-align: center;
+}
+
+.announcement-content p,
+.announcement-content .content-link {
+  padding: 8px 0;
+}

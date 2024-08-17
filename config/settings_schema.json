@@ -1,0 +1,25 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Shopify",
+    "theme_version": "1.0.0",
+    "theme_author": "Grant Feast",
+    "theme_documentation_url": "https://grantfeast.com",
+    "theme_support_email": "grant.feast@gmail.com"
+  },
+  {
+    "name": "General",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Announcement Bar"
+      },
+      {
+        "type": "checkbox",
+        "id": "announcement_bar_enabled",
+        "label": "Select to enable Announcement Bar",
+        "default": true
+      }
+    ]
+  }
+]
